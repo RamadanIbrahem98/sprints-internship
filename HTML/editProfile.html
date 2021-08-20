@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Edit Profile</title>
+</head>
+<body>
+    <h1 style="text-align: center">Edit Profile</h1>
+
+    <!-- Form -->
+    <form action="index.html" method="POST">
+        <fieldset>
+            <legend>Account</legend>
+            <label for="picture">Profile Picture</label>
+            <br>
+            <input id="picture" type="file" accept="image/*" name="picture">
+            
+            <br>
+            <br>
+
+            <label for="username">Username</label>
+            <br>
+            <input id="username" type="text" name="username">
+            
+            <br>
+            <br>
+
+            <label for="password">Password</label>
+            <br>
+            <input id="password" type="password" name="password" minlength="6" maxlength="32">
+        </fieldset>
+        <fieldset>
+            <legend>Contacts</legend>
+            <label for="facebook">Facebook</label>
+            <br>
+            <input id="facebook" type="url" name="facebook" placeholder="https://www.facebook.com/handle">
+            <br>
+            <br>
+            <label for="twitter">Twitter</label>
+            <br>
+            <input id="twitter" type="url" name="twitter" placeholder="https://www.twitter.com/handle">
+            <br>
+            <br>
+            <label for="tel">Phone</label>
+            <br>
+            <input id="tel" type="tel" name="tel" placeholder="+201xxxxxxxxx" required>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <br>
+
+    <form action="index.html" method="GET">
+        <button type="submit">Back</button>
+    </form>
+</body>
+</html>

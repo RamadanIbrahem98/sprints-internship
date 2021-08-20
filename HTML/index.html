@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <!-- Profile Info -->
+    <h1 style="text-align: center">Profile</h1>
+
+    <table>
+        <tr>
+            <td><img src="https://via.placeholder.com/100" alt="Profile Picture"></td>
+            <td>
+                <h3>Ramadan Ibrahem</h3>
+                <h3>Cairo, Egypt</h3>
+            </td>
+        </tr>
+    </table>
+
+    <!-- <button>
+        <a href="editProfile.html">Edit Profile</a>
+    </button> -->
+    <form action="editProfile.html" method="GET">
+        <button>
+            Edit Profile
+        </button>
+    </form>
+
+    <br>
+
+    <!-- Contact ME -->
+    <form action="mailto:ramadanebrahem29@gmail.com" method="POST">
+        <fieldset>
+            <legend>Contact ME</legend>
+            <textarea name="body" id="" cols="30" rows="5" maxlength="50"></textarea>
+            <button>Send Email</button>
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <!-- About ME -->
+    <h2>About me</h2>
+    <a href="https://facebook.com/ramadan.ibrahem19" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Ffacebook-logo-2019-1597680-1350125.png&f=1&nofb=1" width="30" alt="Facebook Handle"></a>
+    <br>
+    <a href="https://twitter.com/RmadanIbrahem" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Faux2.iconspalace.com%2Fuploads%2Ftwitter-circle-icon-256.png&f=1&nofb=1" width="32" alt="Twitter Handle"></a>
+    <br>
+    <a href="tel:+201094921738"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fcall-447-475007.png&f=1&nofb=1" width="30" alt="Call Me"></a>
+    <br>
+
+    <hr>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <table style="border-spacing:50px 20px">
+        <thead>
+            <tr>
+                <th>Num</th>
+                <th>Skill</th>
+                <th>Experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>HTML</td>
+                <td><input type="range" max="100" min="0" value="80" disabled>80</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CSS</td>
+                <td><input type="range" max="100" min="0" value="30" disabled>30</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>JavaScript</td>
+                <td><input type="range" max="100" min="0" value="60" disabled>60</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Services -->
+    <h2>Services</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JavaScript
+            <ul>
+                <li>DOM</li>
+                <li>OOP</li>
+                <li>Async/Await</li>
+            </ul>
+        </li>
+        <li>NodeJS</li>
+    </ol>
+</body>
+</html>

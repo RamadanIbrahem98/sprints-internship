@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Elements */
+
+.R0-card1 {
+    display: inline-block;
+    width: 339px;
+    height: 474px;
+}
+
+.R0-card1-img {
+    background-image: url("https://pakawathemes.com/themes/stickout/parallax/wp-content/uploads/sites/12/sizeB-2.jpg");
+    width:336px;
+    height: 232px;
+    background-size: cover;
+    border-radius:20px;
+    border: 3px solid #EEF0FC;
+}
+
+.R0-card1-body {
+    margin: 24px 16px 25px 24px;
+}
+
+.R0-card1-body > p {
+    margin: 0px;
+}
+
+.R0-card1-text-title {
+    text-align: left;
+    font-weight: bold;
+    color: #46494C;
+}
+
+.R0-card1-text-sub {
+    font-size: 10px;
+    color: #A2A6A9;
+    margin: 0px 0px 24px 0px !important;
+}
+
+.R0-card1-text-body {
+    height: 90px;
+    font-size: 16px;
+    color: #9C9DFE;
+    overflow: hidden;
+}

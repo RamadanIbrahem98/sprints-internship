@@ -1,0 +1,145 @@
+body {
+    background-color:#EEF5FF
+}
+
+section {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+.R0-card4 {
+    /* visibility: hidden; */
+    width: 339px;
+    height: 474px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+/* Borders */
+.uR0-radius-20 {
+    border-radius: 20px;
+}
+
+.uR0-size-color-w-3{
+    border: 3px solid white;
+}
+
+/* Box Shadow */
+.cR0-shadow-0-0-6{
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,8%);
+}
+
+.R0-card4-img{
+    background-image: url("https://www.auspropertyprofessionals.com.au/wp-content/uploads/2017/02/footer-banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 334px;
+    height: 226px;
+    border-radius:20px;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,16%);
+    position: relative;
+}
+/* 
+.sR0-top{
+    position: relative;
+    width: 307px;
+    height: 98px;
+    top: 18px;
+    right: 16px;
+} */
+
+.iR0-heart-card4{
+    color: #E8F1FF;
+    display: inline-block;
+    width: 32px;
+    height:32px;
+    border-radius: 16px;
+    background-color: rgba(128,128,255, 20%);
+    position: absolute;
+    align-items: center;
+    top: 18px;
+    right: 16px;
+}
+
+.iR0-rarrow-card4{
+    color: #FFF;
+    position: absolute;
+    top: 92px;
+    left: 16px;
+    width: 32px;
+    height:32px;
+    background-color:rgba(249,250,254, 15%);
+    border-radius: 16px;
+    font-size:28px
+}
+.iR0-larrow-card4{
+    color: #FFF;
+    position: absolute;
+    top: 92px;
+    right: 16px;
+    width: 32px;
+    height:32px;
+    background-color:rgba(249,250,254, 15%);
+    border-radius: 16px;
+    font-size:28px
+}
+
+.fa {
+    text-align: center;
+
+}
+
+.R0-displays {
+    /* width: 120px; */
+    height: 8px;
+    position: absolute;
+    bottom: 25px;
+    left: 118px;
+}
+
+.R0-radius-8 {
+    display: inline-block;
+    margin: 0 4px;
+    background:rgba(255,255,255, 30%);
+    width: 8px;
+    height: 8px;
+    border-radius:4px;
+}
+
+.R0-active {
+    background:rgba(255,255,255, 100%);
+}
+
+.R0-mid-section {
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 24px;
+    width: 291px;
+    height: 40px;
+    background: red;
+    border-radius:20px
+}
+
+.iR0-starbucks {
+    display: inline-block;
+    background-image: url("https://pngimg.com/uploads/starbucks/starbucks_PNG17.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    border-radius: 15px;
+    background-color: #FFF;
+    width: 30px;
+    height: 30px;
+    margin: 5px 4px;
+}
+
+.pR0-starbucks {
+    display: inline-block;
+    font-size: 10px;
+    font-family: lato;
+    color: #1C2D49;
+    text-align: center;
+    margin: 5px 4px;
+}

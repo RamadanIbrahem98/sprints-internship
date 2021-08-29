@@ -1,0 +1,108 @@
+.R0-card2 {
+    width: 339px;
+    height: 493px;
+    background: #FFF;
+    position: relative;
+}
+
+.R0-card2-hidden-div {
+    height: 24px;
+}
+
+.R0-card2-img {
+    background-image: url("https://heroandvillainstyle.com/wp-content/uploads/2020/07/Man-Not-Wear-Italian-Wedding-Bold.jpg");
+    width: 192px;
+    height: 192px;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.R0-card2-rating {
+    display: inline-block;
+    width: 104px;
+    height: 32px;
+    background-color: #46494C;
+    position: absolute;
+    bottom: -16px;
+    left: 41px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+}
+
+.R0-card2-rating-number {
+    display: inline;
+    padding-left: 36px;
+    text-align:center;
+    align-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.R0-card2-star {
+    display: inline-block;
+    padding-top: 7px;
+    color: #F1CD51;
+    width: 16px;
+    height:16px;
+}
+
+.R0-card2-realestate {
+    background-image: url("https://t3.ftcdn.net/jpg/04/04/44/02/360_F_404440224_LwjnPl7Q7pkrcFnTKL7LcDpKHKc8tLI5.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    right: 39px;
+    top: 163px;
+    width: 56px;
+    height: 56px;
+    border: 2px solid #EFF5FF;
+}
+
+.R0-card2-header {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.R0-card2-header > p {
+    margin: 8px 0px 0px 0px;
+}
+
+.R0-card2-connect {
+    display: inline-block;
+    margin: 24px 55px 24px 54px;
+}
+
+.R0-card2-icon-text {
+    width: 174px;
+    height: 40px;
+    background: linear-gradient(to right, #4BBEF7, #9C9DFE);
+    margin: 9px 0px 8px 0px;
+}
+
+.R0-card2-group-icon-message {
+    margin: 9px 32px 8px 32px;
+}
+
+.R0-card2-call-div {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+i {
+    background-size: cover;
+    background-position: center;
+}
+
+.R0-card2-phone {
+    background-color: rgba(54, 219, 153, 20%);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+}

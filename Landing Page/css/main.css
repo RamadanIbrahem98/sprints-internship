@@ -1,0 +1,89 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 1920px;
+    height: 2000px;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'aside main main main'
+    'footer footer footer footer';
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to left, #E9F7FE, #F3F3FF);
+    box-shadow: 0px 16px 40px rgb(112, 144, 176, 20%);
+    grid-area: header;
+    position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.r0-h-links {
+    /* margin: 26px 20px; */
+    /* display: inline-block; */
+    text-decoration: none;
+}
+
+.r0-vl {
+    border-left: thin solid rgba(51, 51, 51, 0.5);
+    /* height: 24px;
+    margin-left: 20px; */
+    position: relative;
+    display: inline-block;
+    top: 10px;
+}
+
+a:hover {
+    color: #4BBEF7;
+    border-bottom: 2px solid #4BBEF7;
+}
+
+main {
+    background-color: blue;
+    color: white;
+    grid-area: main;
+}
+
+aside {
+    background-color: red;
+    color: white;
+    grid-area: aside;
+}
+
+footer {
+    background-color: violet;
+    color: white;
+    grid-area: footer;
+}
+
+.r0-logo {
+    width: 282px;
+}
+
+.r0-l-logo {
+    background-image: url("../assets/img/D360L.png");
+    width: 162px;
+    height: 56px;
+    margin: 12px 104px 12px 56px;
+}
+
+.r0-search-bar {
+    width: 476px;
+    height: 48px;
+    margin: 16px 20px;
+    background: linear-gradient(to left, rgb(75, 190, 247, 0.12), rgb(156, 157, 254, 0.12));
+}
+
+.r0-search-ico {
+    margin: 11px 4px 12px 12px;
+}
+
+.r0-search-input {
+    background: none;
+    border: none;
+}

@@ -1,0 +1,21 @@
+/* Font Type */
+
+.fu-ppns {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Font Weight */
+
+.fu-w-l {
+    font-weight: 300;
+}
+
+/* Font Sizes */
+
+.fu-s-24 {
+    font-size: 24px;
+}
+
+.fu-s-16 {
+    font-size: 16px;
+}

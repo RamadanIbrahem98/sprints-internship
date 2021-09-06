@@ -1,0 +1,20 @@
+.iM0-logo{
+    background-image: url('../icons/Logo.svg') ;
+}
+.iM0-paryer{
+    background-image: url('../icons/paryer.svg') ;
+}
+.iM0-dashboard{
+    background-image: url('../icons/dashboard.svg') ;
+}
+.iM0-tasks{
+    background-image: url('../icons/tasks.svg') ;
+}
+.iM0-menu{
+    background-image: url('../icons/menuIcon.svg') ;
+}
+/* icons Sizes */
+.iM0-size-a{
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,3 @@
+[submodule "360Deals"]
+	path = 360Deals
+	url = git@github.com:RamadanIbrahem98/360Deals.git

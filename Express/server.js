@@ -20,6 +20,7 @@ const Auth = (req, res, next) => {
   })
 };
 
+app.use('/', signs);
 app.use('/doctors', Auth, doctorsRoutes);
 
 PORT = process.env.PORT || 3000;
